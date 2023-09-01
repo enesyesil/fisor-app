@@ -8,10 +8,10 @@ function App() {
   return (
     <div> 
     <Routes>
-    <Route path="/" element={<Navigate to="/read" />} />
-    <Route exact path="/create" element={<CarCalculate/>}/>
-    <Route exact path="/read" element={<HomePage/>}/>
-    <Route exact path="/edit/:id" element={<CarCalculate/>}/>
+    <Route path="/" element={<Navigate to="/home"/>} />
+    <Route exact path="/car" element={<CarCalculate/>}/>
+    <Route exact path="/home" element={<HomePage/>}/>
+    <Route exact path="/housing" element={<CarCalculate/>}/>
   </Routes>
   </div>
   
