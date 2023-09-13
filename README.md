@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Fisor App - Car Buyer Financial Advisor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-In the project directory, you can run:
+## Screenshot 1 
+![Screenshot1](./FisorPreview.png)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Fisor App is a financial advisor tool designed to assist car buyers in making informed decisions. It leverages React for the front-end interface and integrates the OpenAI API to provide comprehensive financial insights. With this app, users can calculate the present value of different cars, estimate maintenance costs, calculate gas expenses, and perform side-by-side comparisons of various vehicles. The app also offers personalized recommendations based on the user's available capital.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Calculate Present Value: Input the purchase price and other financial parameters to calculate the present value of a car, factoring in depreciation over time.
 
-### `npm run build`
+Maintenance Cost Estimation: Estimate the expected maintenance costs for a selected vehicle over a specified period, helping users budget for ongoing expenses.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Gas Cost Calculation: Calculate the estimated gas expenses based on factors such as mileage, fuel efficiency, and gas prices in the user's location.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Comparative Analysis: Compare multiple cars side by side, considering factors like purchase price, depreciation, maintenance costs, and gas expenses.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Personalized Recommendations: Receive tailored car recommendations based on the user's available capital, ensuring that the chosen vehicle aligns with their financial situation.
 
-### `npm run eject`
+Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React: The front-end of the Fisor App is built using the React JavaScript library, providing a dynamic and user-friendly interface.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+OpenAI API: Integration with the OpenAI API enables the app to generate comprehensive financial insights and recommendations based on user input.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-React
+-Tailwind CSS
+-OpenAI(Soon)
+-Node.js
+-Express.js
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the Fisor App locally, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone this repository to your local machine.
 
-### Code Splitting
+## Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
 
-### Analyzing the Bundle Size
+cd fisor-app
+Install the necessary dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+bash
 
-### Making a Progressive Web App
+npm install
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
 
-### Advanced Configuration
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Open your web browser and access the app at http://localhost:3000.
 
-### Deployment
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Launch the Fisor App.
 
-### `npm run build` fails to minify
+Begin by entering your available capital, which will be used to provide tailored recommendations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Use the app to calculate the present value, estimate maintenance costs, and calculate gas expenses for various cars.
+
+Compare different cars to make an informed decision based on your financial situation and preferences.
+
+Receive personalized recommendations for car purchases that align with your budget.
+
+
+## Acknowledgments
+
+The Fisor App was developed by Enes Yesil as a personal project to help car buyers make financial decisions with confidence.
+Feel free to modify and expand upon this README file to include any additional details or instructions specific to your project.
+
+## Disclosure: The project is currently in progress. It is going to be completed soon. 
