@@ -1,11 +1,24 @@
-Fisor App - Car Buyer Financial Advisor
+# Fisor App - Car Buyer Financial Advisor
 
-Overview
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## Screenshot 1 
+./FisorPreview.png
+
+## Overview
 
 The Fisor App is a financial advisor tool designed to assist car buyers in making informed decisions. It leverages React for the front-end interface and integrates the OpenAI API to provide comprehensive financial insights. With this app, users can calculate the present value of different cars, estimate maintenance costs, calculate gas expenses, and perform side-by-side comparisons of various vehicles. The app also offers personalized recommendations based on the user's available capital.
 
 
-Features
+## Features
 
 Calculate Present Value: Input the purchase price and other financial parameters to calculate the present value of a car, factoring in depreciation over time.
 
@@ -23,13 +36,21 @@ React: The front-end of the Fisor App is built using the React JavaScript librar
 
 OpenAI API: Integration with the OpenAI API enables the app to generate comprehensive financial insights and recommendations based on user input.
 
-Getting Started
+## Technologies Used
+
+-React
+-Tailwind CSS
+-OpenAI(Soon)
+-Node.js
+-Express.js
+
+## Getting Started
 
 To run the Fisor App locally, follow these steps:
 
 Clone this repository to your local machine.
 
-Navigate to the project directory:
+## Navigate to the project directory:
 
 bash
 
@@ -47,7 +68,7 @@ npm start
 
 Open your web browser and access the app at http://localhost:3000.
 
-Usage
+## Usage
 
 Launch the Fisor App.
 
@@ -60,9 +81,9 @@ Compare different cars to make an informed decision based on your financial situ
 Receive personalized recommendations for car purchases that align with your budget.
 
 
-Acknowledgments
+## Acknowledgments
 
 The Fisor App was developed by Enes Yesil as a personal project to help car buyers make financial decisions with confidence.
 Feel free to modify and expand upon this README file to include any additional details or instructions specific to your project.
 
-Disclosure: The project is currently in progress. It is going to be completed soon. 
+## Disclosure: The project is currently in progress. It is going to be completed soon. 
