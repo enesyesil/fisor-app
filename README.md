@@ -11,7 +11,7 @@
 - [Acknowledgments](#acknowledgments)
 
 ## Screenshot 1 
-(./FisorPreview.png)
+![Screenshot1](./FisorPreview.png)
 
 ## Overview
 
