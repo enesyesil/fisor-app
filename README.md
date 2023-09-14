@@ -30,11 +30,6 @@ Comparative Analysis: Compare multiple cars side by side, considering factors li
 
 Personalized Recommendations: Receive tailored car recommendations based on the user's available capital, ensuring that the chosen vehicle aligns with their financial situation.
 
-Technologies Used
-
-React: The front-end of the Fisor App is built using the React JavaScript library, providing a dynamic and user-friendly interface.
-
-OpenAI API: Integration with the OpenAI API enables the app to generate comprehensive financial insights and recommendations based on user input.
 
 ## Technologies Used
 
