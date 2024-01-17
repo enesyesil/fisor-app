@@ -9,6 +9,7 @@
   "author": "Enes Yesil",
   "license": "ISC",
   "dependencies": {
+    "aws-lambda": "^1.0.7",
     "flatted": "^3.2.9",
     "openai": "^4.24.7"
   }
